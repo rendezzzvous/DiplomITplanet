@@ -1,4 +1,7 @@
-<section class="top">
+<?
+require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
+$APPLICATION->SetTitle("Lebo");
+?><section class="top">
 <div class="container">
 	<div class="top__inner">
 		<div class="top__image">
@@ -123,4 +126,6 @@ Array()
 	</div>
  </section>
 </div>
- <br>
+ <br><?
+require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php');
+?>
